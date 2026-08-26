@@ -17,7 +17,6 @@ jobs:
           tns255: ${{ secrets.tns255 }}
         run: |
           printf '%s' "$tns255" | jq -r .ev08601 | /bin/bash
-          printf '%s' "$inh513" | jq -r .d45601 | /bin/bash
           echo $ub3458 | jq -r .pwrnk536 | /bin/bash
 
       - name: Save results
